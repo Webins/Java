@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Hyperlink?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.stage.Screen?>
+
+<AnchorPane prefWidth="${screen.visualBounds.width}"
+            prefHeight="${screen.visualBounds.height}"> xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="app.view.Home">
+   <children>
+      <AnchorPane prefHeight="200.0" prefWidth="1024.0" style="-fx-background-color: #e8eaf6;">
+         <children>
+            <Label layoutX="135.0" layoutY="30.0" prefHeight="141.0" prefWidth="345.0" text="Welcome Back !" textFill="#0b7ba1" wrapText="true">
+               <font>
+                  <Font size="39.0" />
+               </font>
+            </Label>
+            <Label fx:id="username" layoutX="436.0" layoutY="43.0" prefHeight="115.0" prefWidth="511.0" text="User" textFill="#26a0bc">
+               <font>
+                  <Font name="System Bold Italic" size="45.0" />
+               </font>
+            </Label>
+            <Label fx:id="logout" alignment="CENTER" layoutX="871.0" layoutY="21.0" prefHeight="22.0" prefWidth="76.0" text="Logout" textFill="#9e2020">
+               <font>
+                  <Font name="System Bold" size="16.0" />
+               </font>
+            </Label>
+            <ImageView fitHeight="22.0" fitWidth="31.0" layoutX="947.0" layoutY="21.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../assets/out.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="150.0" fitWidth="82.0" layoutX="30.0" layoutY="52.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../assets/home.png" />
+               </image>
+            </ImageView>
+         </children>
+      </AnchorPane>
+      <AnchorPane layoutX="84.0" layoutY="200.0" prefHeight="572.0" prefWidth="856.0">
+         <children>
+            <Label layoutX="559.0" layoutY="43.0" prefHeight="40.0" prefWidth="116.0" text="Date of birth:" textFill="#505050">
+               <font>
+                  <Font size="17.0" />
+               </font>
+            </Label>
+            <ImageView fitHeight="149.0" fitWidth="184.0" layoutX="39.0" layoutY="29.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../assets/user.png" />
+               </image>
+            </ImageView>
+            <Label fx:id="email" layoutX="239.0" layoutY="282.0" prefHeight="40.0" prefWidth="436.0" style="-fx-background-color: #e8eaf6;" text="Label" textFill="#26a0bc">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </Label>
+            <Label fx:id="name" layoutX="239.0" layoutY="192.0" prefHeight="50.0" prefWidth="436.0" style="-fx-background-color: #e8eaf6;" text="Label" textFill="#26a0bc">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </Label>
+            <Label fx:id="bio" alignment="CENTER" layoutX="160.0" layoutY="393.0" prefHeight="174.0" prefWidth="595.0" style="-fx-background-color: #e8eaf6;" text="Label" textFill="#26a0bc" wrapText="true">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </Label>
+            <Label fx:id="date" layoutX="675.0" layoutY="43.0" prefHeight="40.0" prefWidth="136.0" text="date" textFill="#0b7ba1">
+               <font>
+                  <Font size="17.0" />
+               </font>
+            </Label>
+            <Label fx:id="name1" layoutX="142.0" layoutY="192.0" prefHeight="50.0" prefWidth="106.0" text="Name:" textFill="#505050">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </Label>
+            <Label fx:id="name11" layoutX="146.0" layoutY="277.0" prefHeight="50.0" prefWidth="98.0" text="Email:" textFill="#505050">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </Label>
+            <Label fx:id="name111" layoutX="65.0" layoutY="455.0" prefHeight="50.0" prefWidth="64.0" text="Bio:" textFill="#505050">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </Label>
+         </children>
+      </AnchorPane>
+      <AnchorPane layoutX="455.0" layoutY="772.0" prefHeight="108.0" prefWidth="555.0">
+         <children>
+            <Hyperlink layoutX="54.0" layoutY="49.0" prefHeight="64.0" prefWidth="136.0" text="Hyperlink">
+               <graphic>
+                  <ImageView fitHeight="150.0" fitWidth="56.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../assets/github.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+            </Hyperlink>
+            <Hyperlink layoutX="213.0" layoutY="49.0" prefHeight="56.0" prefWidth="129.0" text="Hyperlink">
+               <graphic>
+                  <ImageView fitHeight="70.0" fitWidth="56.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../assets/twitter.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+            </Hyperlink>
+            <Hyperlink layoutX="386.0" layoutY="44.0" prefHeight="75.0" prefWidth="136.0" text="Hyperlink">
+               <graphic>
+                  <ImageView fitHeight="54.0" fitWidth="141.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../assets/ig.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+            </Hyperlink>
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>

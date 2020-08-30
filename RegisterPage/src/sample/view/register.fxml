@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import com.jfoenix.controls.JFXCheckBox?>
+<?import com.jfoenix.controls.JFXDatePicker?>
+<?import com.jfoenix.controls.JFXPasswordField?>
+<?import com.jfoenix.controls.JFXTextArea?>
+<?import com.jfoenix.controls.JFXTextField?>
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.effect.Blend?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="900.0" prefWidth="1024.0" style="-fx-background-color: #00897b;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.controller.RegisterController">
+   <children>
+      <Label alignment="CENTER" layoutX="363.0" layoutY="44.0" prefHeight="62.0" prefWidth="298.0" style="-fx-background-color: #4ebaaa;" text="Register Page" textAlignment="CENTER" textFill="#fffefe">
+         <font>
+            <Font name="Noto Sans Malayalam UI Black" size="21.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" layoutX="85.0" layoutY="172.0" prefHeight="33.0" prefWidth="112.0" text="Username" textAlignment="CENTER" textFill="#fffefe">
+         <font>
+            <Font name="Noto Sans Malayalam UI Black" size="13.0" />
+         </font>
+      </Label>
+      <JFXTextField fx:id="username" focusColor="#11a791" layoutX="212.0" layoutY="175.0" prefHeight="28.0" prefWidth="239.0" promptText=" username" style="-fx-background-color: #4ebaaa;" />
+      <Label alignment="CENTER" layoutX="85.0" layoutY="245.0" prefHeight="33.0" prefWidth="112.0" text="Password" textAlignment="CENTER" textFill="#fffefe">
+         <font>
+            <Font name="Noto Sans Malayalam UI Black" size="13.0" />
+         </font>
+      </Label>
+      <JFXPasswordField fx:id="password" focusColor="#11a791" layoutX="212.0" layoutY="249.0" prefHeight="28.0" prefWidth="239.0" promptText="password" style="-fx-background-color: #4ebaaa;" />
+      <Label alignment="CENTER" layoutX="85.0" layoutY="316.0" prefHeight="33.0" prefWidth="131.0" text="Confirm Password" textAlignment="CENTER" textFill="#fffefe">
+         <font>
+            <Font name="Noto Sans Malayalam UI Black" size="13.0" />
+         </font>
+      </Label>
+      <JFXPasswordField fx:id="confirmPassword" focusColor="#11a791" layoutX="212.0" layoutY="319.0" prefHeight="28.0" prefWidth="239.0" promptText="confirm password" style="-fx-background-color: #4ebaaa;" />
+      <JFXDatePicker fx:id="date" layoutX="704.0" layoutY="177.0" prefHeight="29.0" prefWidth="239.0" promptText="Birth date" style="-fx-background-color: #4ebaaa;">
+         <effect>
+            <Blend />
+         </effect></JFXDatePicker>
+      <Label alignment="CENTER" layoutX="576.0" layoutY="175.0" prefHeight="33.0" prefWidth="112.0" text="Birth Date" textAlignment="CENTER" textFill="#fffefe">
+         <font>
+            <Font name="Noto Sans Malayalam UI Black" size="13.0" />
+         </font>
+      </Label>
+      <JFXTextField fx:id="email" focusColor="#11a791" layoutX="704.0" layoutY="249.0" prefHeight="28.0" prefWidth="239.0" promptText="email" style="-fx-background-color: #4ebaaa;" />
+      <Label alignment="CENTER" layoutX="576.0" layoutY="247.0" prefHeight="33.0" prefWidth="112.0" text="Email" textAlignment="CENTER" textFill="#fffefe">
+         <font>
+            <Font name="Noto Sans Malayalam UI Black" size="13.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" layoutX="576.0" layoutY="316.0" prefHeight="33.0" prefWidth="112.0" text="Confirm Email" textAlignment="CENTER" textFill="#fffefe">
+         <font>
+            <Font name="Noto Sans Malayalam UI Black" size="13.0" />
+         </font>
+      </Label>
+      <JFXTextField fx:id="confirmEmail" focusColor="#11a791" layoutX="704.0" layoutY="319.0" prefHeight="28.0" prefWidth="239.0" promptText="Confirm email" style="-fx-background-color: #4ebaaa;" />
+      <JFXTextArea fx:id="message" focusColor="#11a791" layoutX="261.0" layoutY="453.0" style="-fx-background-color: #4ebaaa;" />
+      <Label alignment="CENTER" layoutX="418.0" layoutY="400.0" prefHeight="47.0" prefWidth="177.0" text="Write a message" textAlignment="CENTER" textFill="#fffefe">
+         <font>
+            <Font name="Noto Sans Malayalam UI Black" size="17.0" />
+         </font>
+      </Label>
+      <JFXCheckBox fx:id="checkbox" checkedColor="#043c20" layoutX="645.0" layoutY="691.0" text="Accept our terms" textFill="WHITE" unCheckedColor="#fff9f9">
+         <cursor>
+            <Cursor fx:constant="OPEN_HAND" />
+         </cursor></JFXCheckBox>
+      <JFXButton fx:id="submit" alignment="CENTER" layoutX="379.0" layoutY="750.0" prefHeight="28.0" prefWidth="270.0" style="-fx-background-color: #005b4f;" text="Submit" textFill="WHITE">
+         <cursor>
+            <Cursor fx:constant="OPEN_HAND" />
+         </cursor></JFXButton>
+      <ImageView fitHeight="54.0" fitWidth="79.0" layoutX="589.0" layoutY="48.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../assets/java.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="33.0" fitWidth="27.0" layoutX="59.0" layoutY="175.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../assets/user.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="40.0" fitWidth="33.0" layoutX="56.0" layoutY="247.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../assets/password.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="33.0" fitWidth="54.0" layoutX="53.0" layoutY="317.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../assets/password.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="27.0" fitWidth="33.0" layoutX="539.0" layoutY="178.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../assets/date.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="54.0" fitWidth="33.0" layoutX="536.0" layoutY="247.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../assets/email.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="33.0" fitWidth="75.0" layoutX="536.0" layoutY="317.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../assets/email.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="41.0" fitWidth="29.0" layoutX="587.0" layoutY="409.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../assets/msg.png" />
+         </image>
+      </ImageView>
+      <Label fx:id="flashMsg" alignment="CENTER" layoutX="304.0" layoutY="121.0" prefHeight="33.0" prefWidth="416.0" style="-fx-background-color: #f8d7da; -fx-border-style: solid; -fx-border-color: #f5c6cb;" textFill="#721c24" visible="false">
+         <font>
+            <Font name="System Bold" size="13.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

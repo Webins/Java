@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.effect.Blend?>
+<?import javafx.scene.effect.Glow?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="820.0" prefWidth="1024.0" style="-fx-background-color: #00897b;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.controller.LoginController">
+   <children>
+      <AnchorPane prefHeight="208.0" prefWidth="1024.0" style="-fx-background-color: #4ebaaa;">
+         <children>
+            <Label alignment="CENTER" layoutX="40.0" layoutY="35.0" prefHeight="139.0" prefWidth="710.0" text="Registration succesfully" textFill="#f5f5f5">
+               <font>
+                  <Font name="System Bold Italic" size="49.0" />
+               </font>
+               <effect>
+                  <Glow />
+               </effect>
+            </Label>
+            <ImageView fitHeight="99.0" fitWidth="155.0" layoutX="688.0" layoutY="55.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../assets/check.png" />
+               </image>
+            </ImageView>
+         </children>
+      </AnchorPane>
+      <JFXButton layoutX="334.0" layoutY="694.0" prefHeight="57.0" prefWidth="402.0" style="-fx-background-color: #005b4f;" text="Go home" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="31.0" />
+         </font>
+      </JFXButton>
+      <AnchorPane layoutX="3.0" layoutY="208.0" prefHeight="362.0" prefWidth="1018.0">
+         <children>
+            <AnchorPane layoutX="-6.0" prefHeight="66.0" prefWidth="1027.0" style="-fx-background-color: #005b4f;">
+               <children>
+                  <Label layoutX="41.0" prefHeight="139.0" prefWidth="210.0" text="Welcome" textFill="#fcf8f8">
+                     <font>
+                        <Font name="System Bold" size="45.0" />
+                     </font>
+                     <effect>
+                        <Blend />
+                     </effect>
+                  </Label>
+                  <ImageView fitHeight="99.0" fitWidth="150.0" layoutX="272.0" layoutY="21.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../assets/user.png" />
+                     </image>
+                  </ImageView>
+                  <Label fx:id="username" layoutX="389.0" layoutY="24.0" prefHeight="92.0" prefWidth="581.0" text="username" textFill="#fcf8f8">
+                     <font>
+                        <Font name="System Bold" size="45.0" />
+                     </font>
+                     <effect>
+                        <Blend />
+                     </effect>
+                  </Label>
+               </children>
+            </AnchorPane>
+            <Label fx:id="email" alignment="CENTER" layoutX="97.0" layoutY="236.0" prefHeight="92.0" prefWidth="851.0" text="Label" textFill="#00221d" underline="true">
+               <font>
+                  <Font name="System Bold Italic" size="39.0" />
+               </font>
+               <effect>
+                  <Blend />
+               </effect>
+            </Label>
+            <Label alignment="TOP_CENTER" layoutX="131.0" layoutY="157.0" nodeOrientation="LEFT_TO_RIGHT" prefHeight="79.0" prefWidth="753.0" style="-fx-background-color: #4ebaaa;" text="We have sent a email to" textAlignment="CENTER" textFill="WHITE" wrapText="true">
+               <font>
+                  <Font size="45.0" />
+               </font>
+            </Label>
+         </children>
+      </AnchorPane>
+      <Label layoutX="46.0" layoutY="583.0" prefHeight="28.0" prefWidth="871.0" text="You need to verify it in order to have all the features." textFill="WHITE">
+         <font>
+            <Font size="29.0" />
+         </font>
+         <effect>
+            <Blend />
+         </effect>
+      </Label>
+   </children>
+</AnchorPane>

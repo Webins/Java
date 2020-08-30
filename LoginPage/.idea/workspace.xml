@@ -1,0 +1,355 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="cdb932d9-7e58-4d94-93a9-e7b232ef17da" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/../LoginAndRegistration/src/app/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LoginAndRegistration/src/app/assets/check.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LoginAndRegistration/src/app/assets/date.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LoginAndRegistration/src/app/assets/email.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LoginAndRegistration/src/app/assets/icons8-contraseña-100.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LoginAndRegistration/src/app/assets/java.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LoginAndRegistration/src/app/assets/java.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LoginAndRegistration/src/app/assets/message.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LoginAndRegistration/src/app/assets/msg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LoginAndRegistration/src/app/assets/password.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LoginAndRegistration/src/app/assets/user.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LoginAndRegistration/src/app/controller/Home.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LoginAndRegistration/src/app/controller/Login.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LoginAndRegistration/src/app/controller/Register.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LoginAndRegistration/src/app/controller/SuccessRegistration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LoginAndRegistration/src/app/view/home.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LoginAndRegistration/src/app/view/login.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LoginAndRegistration/src/app/view/register.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LoginAndRegistration/src/app/view/successRegistration.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Register/src/sample/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Register/src/sample/assets/date.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Register/src/sample/assets/email.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Register/src/sample/assets/icons8-contraseña-100.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Register/src/sample/assets/java.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Register/src/sample/assets/message.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Register/src/sample/assets/msg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Register/src/sample/assets/password.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Register/src/sample/assets/user.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Register/src/sample/controller/LoginController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Register/src/sample/controller/RegisterController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Register/src/sample/view/login.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Register/src/sample/view/register.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RegisterPage/src/sample/view/login.fxml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="DebuggerManager">
+    <breakpoint_any default_suspend_policy="SuspendAll" default_condition_enabled="true" converted="true">
+      <breakpoint>
+        <option name="NOTIFY_CAUGHT" value="true" />
+        <option name="NOTIFY_UNCAUGHT" value="true" />
+        <option name="ENABLED" value="false" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="SUSPEND" value="true" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="true" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
+      <breakpoint>
+        <option name="NOTIFY_CAUGHT" value="true" />
+        <option name="NOTIFY_UNCAUGHT" value="true" />
+        <option name="ENABLED" value="false" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="SUSPEND" value="true" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="true" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
+    </breakpoint_any>
+    <ui_properties converted="true" />
+    <breakpoint_rules converted="true" />
+  </component>
+  <component name="FindManager">
+    <FindUsagesManager>
+      <setting name="OPEN_NEW_TAB" value="false" />
+    </FindUsagesManager>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
+  <component name="ProjectId" id="1cOynfkKGBpTqjt3AxW5S6mnldX" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectReloadState">
+    <option name="STATE" value="0" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="GoToClass.includeLibraries" value="false" />
+    <property name="GoToClass.toSaveIncludeLibraries" value="false" />
+    <property name="GoToFile.includeJavaFiles" value="false" />
+    <property name="MemberChooser.copyJavadoc" value="false" />
+    <property name="MemberChooser.showClasses" value="true" />
+    <property name="MemberChooser.sorted" value="false" />
+    <property name="OverrideImplement.combined" value="false" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="dynamic.classpath" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../LoginAndRegistration" />
+    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="recentsLimit" value="5" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/sample/view" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <module name="" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="HTML_FILE_NAME" />
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <option name="VM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method />
+    </configuration>
+    <configuration default="true" type="DartUnitRunConfigurationType" factoryName="DartUnit">
+      <option name="VMOptions" />
+      <option name="arguments" />
+      <option name="filePath" />
+      <option name="scope" value="ALL" />
+      <option name="testName" />
+      <method />
+    </configuration>
+    <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
+      <Host>localhost</Host>
+      <Port>5050</Port>
+    </configuration>
+    <configuration name="Main" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="sample.Main" />
+      <module name="RegisterPage" />
+      <option name="VM_PARAMETERS" value="--module-path $PROJECT_DIR$/../../../../javafx-sdk-11.0.2/lib  --add-modules javafx.controls,javafx.fxml" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="sample.controller.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <option name="TEST_OBJECT" value="class" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="JetRunConfigurationType">
+      <module name="RegisterPage" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <module name="RegisterPage" />
+      <option name="filePath" />
+      <option name="vmParameters" />
+      <option name="alternativeJrePath" />
+      <option name="programParameters" />
+      <option name="passParentEnvs" value="true" />
+      <option name="workingDirectory" />
+      <option name="isAlternativeJrePathEnabled" value="false" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="filePath" />
+      <option name="vmParameters" />
+      <option name="alternativeJrePath" />
+      <option name="programParameters" />
+      <option name="passParentEnvs" value="true" />
+      <option name="workingDirectory" />
+      <option name="isAlternativeJrePathEnabled" value="false" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="TestNG">
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType">
+      <module name="" />
+      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m" />
+      <option name="PROGRAM_PARAMETERS" />
+      <predefined_log_file enabled="true" id="idea.log" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="cdb932d9-7e58-4d94-93a9-e7b232ef17da" name="Default" comment="" />
+      <created>1359379246138</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1359379246138</updated>
+      <workItem from="1359379250712" duration="1302000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="1302000" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="OFFER_MOVE_TO_ANOTHER_CHANGELIST_ON_PARTIAL_COMMIT" value="true" />
+    <option name="INCLUDE_TEXT_INTO_SHELF" value="false" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="847" y="207" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1590414139478">
+      <screen x="0" y="22" width="1920" height="1058" />
+    </state>
+    <state x="847" y="207" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.22.1920.1058@0.22.1920.1058" timestamp="1590414139478" />
+    <state x="772" y="260" key="#com.intellij.ide.util.MemberChooser" timestamp="1590419732126">
+      <screen x="0" y="22" width="1920" height="1058" />
+    </state>
+    <state x="772" y="260" key="#com.intellij.ide.util.MemberChooser/0.22.1920.1058@0.22.1920.1058" timestamp="1590419732126" />
+    <state x="1144" y="307" key="#com.intellij.util.ui.classpath.ChooseLibrariesDialog" timestamp="1590414161783">
+      <screen x="0" y="22" width="1920" height="1058" />
+    </state>
+    <state x="1144" y="307" key="#com.intellij.util.ui.classpath.ChooseLibrariesDialog/0.22.1920.1058@0.22.1920.1058" timestamp="1590414161783" />
+    <state x="1086" y="293" key="FileChooserDialogImpl" timestamp="1590671118409">
+      <screen x="0" y="22" width="1920" height="1058" />
+    </state>
+    <state x="1086" y="293" key="FileChooserDialogImpl/0.22.1920.1058@0.22.1920.1058" timestamp="1590671118409" />
+    <state width="1874" height="344" key="GridCell.Tab.0.bottom" timestamp="1590420536277">
+      <screen x="0" y="22" width="1920" height="1058" />
+    </state>
+    <state width="1874" height="344" key="GridCell.Tab.0.bottom/0.22.1920.1058@0.22.1920.1058" timestamp="1590420536277" />
+    <state width="1874" height="344" key="GridCell.Tab.0.center" timestamp="1590420536277">
+      <screen x="0" y="22" width="1920" height="1058" />
+    </state>
+    <state width="1874" height="344" key="GridCell.Tab.0.center/0.22.1920.1058@0.22.1920.1058" timestamp="1590420536277" />
+    <state width="1874" height="344" key="GridCell.Tab.0.left" timestamp="1590420536276">
+      <screen x="0" y="22" width="1920" height="1058" />
+    </state>
+    <state width="1874" height="344" key="GridCell.Tab.0.left/0.22.1920.1058@0.22.1920.1058" timestamp="1590420536276" />
+    <state width="1874" height="344" key="GridCell.Tab.0.right" timestamp="1590420536277">
+      <screen x="0" y="22" width="1920" height="1058" />
+    </state>
+    <state width="1874" height="344" key="GridCell.Tab.0.right/0.22.1920.1058@0.22.1920.1058" timestamp="1590420536277" />
+    <state width="1874" height="344" key="GridCell.Tab.1.bottom" timestamp="1590420536278">
+      <screen x="0" y="22" width="1920" height="1058" />
+    </state>
+    <state width="1874" height="344" key="GridCell.Tab.1.bottom/0.22.1920.1058@0.22.1920.1058" timestamp="1590420536278" />
+    <state width="1874" height="344" key="GridCell.Tab.1.center" timestamp="1590420536278">
+      <screen x="0" y="22" width="1920" height="1058" />
+    </state>
+    <state width="1874" height="344" key="GridCell.Tab.1.center/0.22.1920.1058@0.22.1920.1058" timestamp="1590420536278" />
+    <state width="1874" height="344" key="GridCell.Tab.1.left" timestamp="1590420536278">
+      <screen x="0" y="22" width="1920" height="1058" />
+    </state>
+    <state width="1874" height="344" key="GridCell.Tab.1.left/0.22.1920.1058@0.22.1920.1058" timestamp="1590420536278" />
+    <state width="1874" height="344" key="GridCell.Tab.1.right" timestamp="1590420536278">
+      <screen x="0" y="22" width="1920" height="1058" />
+    </state>
+    <state width="1874" height="344" key="GridCell.Tab.1.right/0.22.1920.1058@0.22.1920.1058" timestamp="1590420536278" />
+    <state x="894" y="127" key="SettingsEditor" timestamp="1590414224680">
+      <screen x="0" y="22" width="1920" height="1058" />
+    </state>
+    <state x="894" y="127" key="SettingsEditor/0.22.1920.1058@0.22.1920.1058" timestamp="1590414224680" />
+  </component>
+</project>

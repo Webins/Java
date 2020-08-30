@@ -1,0 +1,302 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import com.jfoenix.controls.JFXPasswordField?>
+<?import com.jfoenix.controls.JFXTextArea?>
+<?import com.jfoenix.controls.JFXTextField?>
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.effect.Blend?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.stage.Screen?>
+<?import javafx.scene.layout.StackPane?>
+<?import javafx.scene.Group?>
+<?import javafx.scene.control.ScrollPane?>
+
+<AnchorPane style="-fx-background-color: WHITE;" xmlns="http://javafx.com/javafx/11.0.1"
+            prefWidth="${screen.visualBounds.width}"
+            prefHeight="${screen.visualBounds.height}"
+            xmlns:fx="http://javafx.com/fxml/1"
+
+            fx:controller="app.controller.Register">
+   <fx:define>
+      <Screen fx:factory="getPrimary" fx:id="screen"/>
+   </fx:define>
+   <children>
+
+   <StackPane prefWidth="${screen.visualBounds.width}"
+              prefHeight="${screen.visualBounds.height}">
+      <children>
+         <Group StackPane.alignment="CENTER">
+            <children>
+               <AnchorPane prefWidth="${screen.visualBounds.width}" prefHeight="200.0" >
+                  <children>
+                     <Label alignment="CENTER" contentDisplay="CENTER" layoutX="98.0" prefHeight="149.0" prefWidth="331.0" text="Registration" textFill="#0b7ba1" wrapText="true">
+                        <font>
+                           <Font name="System Bold Italic" size="45.0" />
+                        </font>
+                        <effect>
+                           <Blend />
+                        </effect>
+                     </Label>
+                     <ImageView fitHeight="80.0" fitWidth="150.0" layoutX="417.0" layoutY="35.0" pickOnBounds="true" preserveRatio="true">
+                        <image>
+                           <Image url="@../assets/register.png" />
+                        </image>
+                     </ImageView>
+                     <JFXButton layoutX="1500" layoutY="45.0" prefHeight="70.0" prefWidth="125.0" style="-fx-background-color: #0caea3;" text="Go Back" textFill="#f6f8f8" fx:id="goBack">
+                        <font>
+                           <Font name="System Bold" size="19.0" />
+                        </font>
+                        <cursor>
+                           <Cursor fx:constant="HAND" />
+                        </cursor>
+                     </JFXButton>
+                  </children>
+               </AnchorPane>
+
+               <ScrollPane layoutX="2.0" layoutY="176.0" prefWidth="${screen.visualBounds.width}"
+                           prefHeight="${screen.visualBounds.height}"
+                           style="-fx-background-color: #e8eaf6;">
+                  <content>
+
+
+
+
+                     <StackPane layoutX="2.0" layoutY="180"  prefHeight="476.0" prefWidth="${screen.visualBounds.width}" >
+                        <Group StackPane.alignment="CENTER" >
+                           <children>
+                              <Label fx:id="flashMsg" alignment="CENTER" layoutX="313.0" layoutY="160.0" prefHeight="33.0" prefWidth="407.0" style="-fx-background-color: #f8d7da; -fx-border-style: solid; -fx-border-color: #f5c6cb;" textFill="#721c24" visible="false">
+                                 <font>
+                                    <Font name="System Bold" size="13.0" />
+                                 </font>
+                              </Label>
+                              <JFXTextField fx:id="username" focusColor="#0b7ba1" layoutX="39.0" layoutY="316.0" prefHeight="70.0" prefWidth="369.0" promptText="Enter your username" style="-fx-background-color: #e0f2f1; -fx-text-inner-color: #0b7ba1;" unFocusColor="#aebfbe">
+                                 <font>
+                                    <Font name="System Bold" size="18.0" />
+                                 </font>
+                                 <effect>
+                                    <Blend />
+                                 </effect>
+                              </JFXTextField>
+                              <JFXTextField fx:id="name" focusColor="#0b7ba1" layoutX="616.0" layoutY="316.0" prefHeight="70.0" prefWidth="369.0" promptText="Enter your name" style="-fx-background-color: #e0f2f1; -fx-text-inner-color: #0b7ba1;" unFocusColor="#aebfbe">
+                                 <font>
+                                    <Font name="System Bold" size="18.0" />
+                                 </font>
+                                 <effect>
+                                    <Blend />
+                                 </effect>
+                              </JFXTextField>
+                              <JFXPasswordField fx:id="password" focusColor="#0b7ba1" layoutX="39.0" layoutY="433.0" prefHeight="70.0" prefWidth="369.0" promptText="Enter your password" style="-fx-background-color: #e0f2f1 #aebfbe #e0f2f1; -fx-text-inner-color: #0b7ba1;" unFocusColor="#aebfbe">
+                                 <font>
+                                    <Font name="System Bold" size="18.0" />
+                                 </font>
+                                 <effect>
+                                    <Blend />
+                                 </effect>
+                              </JFXPasswordField>
+                              <JFXPasswordField fx:id="confirmPassword" focusColor="#0b7ba1" layoutX="616.0" layoutY="433.0" prefHeight="70.0" prefWidth="369.0" promptText="Confirm your password" style="-fx-background-color: #e0f2f1 #aebfbe #e0f2f1; -fx-text-inner-color: #0b7ba1;" unFocusColor="#aebfbe">
+                                 <font>
+                                    <Font name="System Bold" size="18.0" />
+                                 </font>
+                                 <effect>
+                                    <Blend />
+                                 </effect>
+                              </JFXPasswordField>
+                              <JFXTextField fx:id="email" focusColor="#0b7ba1" layoutX="39.0" layoutY="550.0" prefHeight="70.0" prefWidth="369.0" promptText="Enter your email" style="-fx-background-color: #e0f2f1; -fx-text-inner-color: #0b7ba1;" unFocusColor="#aebfbe">
+                                 <font>
+                                    <Font name="System Bold" size="18.0" />
+                                 </font>
+                                 <effect>
+                                    <Blend />
+                                 </effect>
+                              </JFXTextField>
+                              <JFXTextField fx:id="confirmEmail" focusColor="#0b7ba1" layoutX="616.0" layoutY="550.0" prefHeight="70.0" prefWidth="369.0" promptText="Confirm your email" style="-fx-background-color: #e0f2f1; -fx-text-inner-color: #0b7ba1;" unFocusColor="#aebfbe">
+                                 <font>
+                                    <Font name="System Bold" size="18.0" />
+                                 </font>
+                                 <effect>
+                                    <Blend />
+                                 </effect>
+                              </JFXTextField>
+                              <Label layoutX="14.0" layoutY="209.0" prefHeight="47.0" prefWidth="295.0" text="Personal information">
+                                 <font>
+                                    <Font name="System Bold Italic" size="28.0" />
+                                 </font>
+                              </Label>
+                              <Label layoutX="14.0" layoutY="670.0" prefHeight="47.0" prefWidth="190.0" text="Social medias">
+                                 <font>
+                                    <Font name="System Bold Italic" size="28.0" />
+                                 </font>
+                              </Label>
+                              <JFXTextField fx:id="instagram" focusColor="#0b7ba1" layoutX="39.0" layoutY="766.0" prefHeight="70.0" prefWidth="369.0" promptText="Enter your instagram" style="-fx-background-color: #e0f2f1; -fx-text-inner-color: #0b7ba1;" unFocusColor="#aebfbe">
+                                 <font>
+                                    <Font name="System Bold" size="18.0" />
+                                 </font>
+                                 <effect>
+                                    <Blend />
+                                 </effect>
+                              </JFXTextField>
+                              <JFXTextField fx:id="github" focusColor="#0b7ba1" layoutX="526.0" layoutY="820.0" prefHeight="70.0" prefWidth="369.0" promptText="Enter your github" style="-fx-background-color: #e0f2f1; -fx-text-inner-color: #0b7ba1;" unFocusColor="#aebfbe">
+                                 <font>
+                                    <Font name="System Bold" size="18.0" />
+                                 </font>
+                                 <effect>
+                                    <Blend />
+                                 </effect>
+                              </JFXTextField>
+                              <JFXTextField fx:id="twitter" focusColor="#0b7ba1" layoutX="39.0" layoutY="883.0" prefHeight="70.0" prefWidth="369.0" promptText="Enter your twitter" style="-fx-background-color: #e0f2f1; -fx-text-inner-color: #0b7ba1;" unFocusColor="#aebfbe">
+                                 <font>
+                                    <Font name="System Bold" size="18.0" />
+                                 </font>
+                                 <effect>
+                                    <Blend />
+                                 </effect>
+                              </JFXTextField>
+                              <Label layoutX="14.0" layoutY="1049.0" prefHeight="47.0" prefWidth="346.0" text="Tell something about you">
+                                 <font>
+                                    <Font name="System Bold Italic" size="28.0" />
+                                 </font>
+                              </Label>
+                              <JFXTextArea  focusColor="#0b7ba1" layoutX="115.0" layoutY="1143.0" prefHeight="277.0" prefWidth="804.0" promptText="Tell something"
+                                            fx:id="bio"
+                                            style="-fx-background-color: #e0f2f1; -fx-text-inner-color: #0b7ba1;" unFocusColor="#aebfbe">
+                                 <font>
+                                    <Font name="System Bold" size="22.0" />
+                                 </font>
+                              </JFXTextArea>
+                              <Label layoutX="39.0" layoutY="276.0" prefHeight="33.0" prefWidth="144.0" text="Username">
+                                 <font>
+                                    <Font name="System Bold Italic" size="20.0" />
+                                 </font>
+                              </Label>
+                              <Label layoutX="616.0" layoutY="276.0" prefHeight="33.0" prefWidth="144.0" text="Name">
+                                 <font>
+                                    <Font name="System Bold Italic" size="20.0" />
+                                 </font>
+                              </Label>
+                              <Label layoutX="39.0" layoutY="393.0" prefHeight="33.0" prefWidth="144.0" text="Password">
+                                 <font>
+                                    <Font name="System Bold Italic" size="20.0" />
+                                 </font>
+                              </Label>
+                              <Label layoutX="616.0" layoutY="393.0" prefHeight="33.0" prefWidth="179.0" text="Confirm Password">
+                                 <font>
+                                    <Font name="System Bold Italic" size="20.0" />
+                                 </font>
+                              </Label>
+                              <Label layoutX="39.0" layoutY="510.0" prefHeight="33.0" prefWidth="144.0" text="Email">
+                                 <font>
+                                    <Font name="System Bold Italic" size="20.0" />
+                                 </font>
+                              </Label>
+                              <Label layoutX="616.0" layoutY="510.0" prefHeight="33.0" prefWidth="144.0" text="Confirm Email">
+                                 <font>
+                                    <Font name="System Bold Italic" size="20.0" />
+                                 </font>
+                              </Label>
+                              <Label layoutX="39.0" layoutY="843.0" prefHeight="33.0" prefWidth="144.0" text="Twitter">
+                                 <font>
+                                    <Font name="System Bold Italic" size="20.0" />
+                                 </font>
+                              </Label>
+                              <Label layoutX="526.0" layoutY="780.0" prefHeight="33.0" prefWidth="144.0" text="GitHub">
+                                 <font>
+                                    <Font name="System Bold Italic" size="20.0" />
+                                 </font>
+                              </Label>
+                              <Label layoutX="39.0" layoutY="726.0" prefHeight="33.0" prefWidth="144.0" text="Instagram">
+                                 <font>
+                                    <Font name="System Bold Italic" size="20.0" />
+                                 </font>
+                              </Label>
+                              <ImageView fitHeight="54.0" fitWidth="59.0" layoutX="309.0" layoutY="208.0" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@../assets/info.png" />
+                                 </image>
+                              </ImageView>
+                              <ImageView fitHeight="54.0" fitWidth="33.0" layoutX="145.0" layoutY="276.0" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@../assets/user.png" />
+                                 </image>
+                              </ImageView>
+                              <ImageView fitHeight="54.0" fitWidth="33.0" layoutX="795.0" layoutY="393.0" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@../assets/password.png" />
+                                 </image>
+                              </ImageView>
+                              <ImageView fitHeight="54.0" fitWidth="33.0" layoutX="145.0" layoutY="393.0" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@../assets/password.png" />
+                                 </image>
+                              </ImageView>
+                              <ImageView fitHeight="54.0" fitWidth="33.0" layoutX="99.0" layoutY="510.0" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@../assets/email.png" />
+                                 </image>
+                              </ImageView>
+                              <ImageView fitHeight="54.0" fitWidth="33.0" layoutX="768.0" layoutY="510.0" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@../assets/email.png" />
+                                 </image>
+                              </ImageView>
+                              <ImageView fitHeight="54.0" fitWidth="33.0" layoutX="678.0" layoutY="276.0" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@../assets/star.png" />
+                                 </image>
+                              </ImageView>
+                              <ImageView fitHeight="54.0" fitWidth="33.0" layoutX="600.0" layoutY="780.0" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@../assets/github.png" />
+                                 </image>
+                              </ImageView>
+                              <ImageView fitHeight="54.0" fitWidth="33.0" layoutX="116.0" layoutY="843.0" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@../assets/twitter.png" />
+                                 </image>
+                              </ImageView>
+                              <ImageView fitHeight="33.0" fitWidth="33.0" layoutX="154.0" layoutY="726.0" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@../assets/ig.png" />
+                                 </image>
+                              </ImageView>
+                              <ImageView fitHeight="54.0" fitWidth="59.0" layoutX="363.0" layoutY="1046.0" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@../assets/bio.png" />
+                                 </image>
+                              </ImageView>
+
+                              <ImageView fitHeight="54.0" fitWidth="59.0" layoutX="204.0" layoutY="667.0" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@../assets/nube.png" />
+                                 </image>
+                              </ImageView>
+
+                              <JFXButton fx:id="submit" alignment="CENTER" layoutX="270.0" layoutY="1500.0" prefHeight="63.0" prefWidth="422.0" style="-fx-background-color: #0b7ba1;" text="Submit" textFill="#e0f2f1">
+                                 <cursor>
+                                    <Cursor fx:constant="OPEN_HAND" />
+                                 </cursor>
+                                 <font>
+                                    <Font size="27.0" />
+                                 </font></JFXButton>
+                              <Label layoutY="1800.0">
+
+                              </Label>
+                           </children>
+                        </Group>
+
+                     </StackPane>
+                  </content>
+               </ScrollPane>
+                  </children>
+
+
+         </Group>
+      </children>
+   </StackPane>
+
+   </children>
+</AnchorPane>
